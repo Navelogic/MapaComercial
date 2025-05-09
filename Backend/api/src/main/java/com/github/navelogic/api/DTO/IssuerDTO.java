@@ -17,7 +17,6 @@ import org.hibernate.validator.constraints.br.CNPJ;
 public class IssuerDTO {
     private Long id;
 
-    @CNPJ
     @NotBlank
     private String cnpj;
 
